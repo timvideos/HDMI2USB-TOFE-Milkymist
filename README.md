@@ -1,48 +1,60 @@
 
-# TOFE Expansion Board template for KiCad
+[![CrowdSupply Image](http://planet.timvideos.us/numato-opsis-crowdfunding-campaign-master/badge.png)](https://www.crowdsupply.com/numato-lab/opsis)
 
-This repository contains a template for creating TOFE expansion boards.
+The <a href="http://hdmi2usb.tv/numato-opsis">Numato Opsis</a>, the first open hardware for the
+<a href="http://hdmi2usb.tv">HDMI2USB firmware</a>,
+<a href="https://www.crowdsupply.com/numato-lab/opsis">can now be ordered on 
+ ![CrowdSupply](https://www.crowdsupply.com/_teal/images/crowd-supply-logo-dark.png)
+</a>
 
-For [more information on the TOFE interface, see the HDMI2USB website](http://hdmi2usb.tv/tofe).
-For the [KiCad website](http://kicad-pcb.org/) for more information on using it.
+## Milkymist Compatibility - TOFE Expansion board
 
-## Using
+The [Numato Opsis board](https://www.crowdsupply.com/numato-lab/opsis) is
+already very similar to the [Milkymist M1](http://m-labs.hk/m1.html) and 
+[Mixxeo](http://m-labs.hk/mixxeo.html) devices created by
+[M-Labs](http://m-labs.hk/), but lacks the DJ hardware interfaces. This
+expansion board adds these missing components.
 
- 1. Fork the github repo at [timvideos/HDMI2USB-TOFE-kicad-template](https://github.com/timvideos/HDMI2USB-TOFE-kicad-template)
- 2. Rename your repository in the GitHub settings.
- 3. Use the `rename-board.sh` script to get a starting KiCad schematic and PCB layout.
-```bash
-# For a full height board
-./rename-board.sh 'My Awesome Board' full
+This extension board has the following features;
 
- For a half height board
-./rename-board.sh 'My Awesome Board' half
-```
- 4. (optional) Send [mithro](mailto:mithro@mithis.com) about your awesome work!
+ * [AC‘97 compatible](https://en.wikipedia.org/wiki/AC%2797)
+   audio interface with Microphone, Headphones (on standard 3.5mm connectors)
+   and Line In + Out (on screw terminals for permanent installations).
 
- * Your schematic should include an EEPROM (either real or emulated) on the
-   ID_CLK and ID_DAT lines.
- * Your schematic should include a TOFE header.
+ * [RS-422](https://en.wikipedia.org/wiki/RS-422) / [RS-485](https://en.wikipedia.org/wiki/RS-485)
+   compatible high speed (10Mbps), full duplex serial port;
 
-## Board Design
+    * Compatible with wide range of interfaces including the industry standard
+      [DMX512 control protocol](https://en.wikipedia.org/wiki/DMX512).
 
-The TOFE specification is very flexible regarding board shape. See the
-following image for the many potential designs;
+    * Connected to screw terminal headers, allowing wiring to DB-9, RJ-12,
+      XLR-5, XLR-3 or RJ-45 connectors (wiring diagrams provided).
 
-![TOFE Examples Diagram](http://hdmi2usb.tv/img/tofe/tofe-examples-full-height.png)
+ * [RS-232](https://en.wikipedia.org/wiki/RS-232) full duplex serial port on a
+   standard DB-9 connector. Supporting connection to wide range of devices with
+   serial ports. (A secondary RS-232 full duplex serial port on a standard
+   screw terminal.)
 
-For full details on the TOFE mechanical specification, see the
-[mechanical](http://hdmi2usb.tv/tofe#mechanical) part of the specification.
+ * [MIDI](https://en.wikipedia.org/wiki/MIDI) In and Out interfaces on screw
+   terminals, supporting connection to wide range of musical instruments and
+   control devices.
 
-#### Full Height Board
+ * [Infrared](https://learn.adafruit.com/ir-sensor/ir-remote-signals)
+   transmitter and receiver compatible with many 
+   [consumer remote protocols](https://en.wikipedia.org/wiki/Consumer_IR).
 
-![TOFE Examples Diagram](img/tofe-full-height.png)
+ * 4 x Push button Switches,
+ * 4 x Indicator LEDs,
 
-#### Half Height Board
+ * 2 x [Digilent Pmod™ Compatible](http://www.digilentinc.com/Pmods/licensing.cfm)
+   headers[1] to allow usage of existing expansion boards,
+   including boards from 
+   [Numato Lab](http://numato.com/fpga-boards/filter/cat/expansion-modules.html?limit=30),
+   [Digilent](http://digilentinc.com/pmods),
+   [Maxim](https://www.maximintegrated.com/en/design/design-technology/fpga-design-resources/pmod-compatible-plug-in-peripheral-modules.html) and 
+   [Analog](https://wiki.analog.com/resources/alliances/xilinx#pmods).
 
-![TOFE Examples Diagram](img/tofe-half-height.png)
-
-## KiCad
+## Editing
 
 The design in this repository was made using [KiCad](http://www.kicad-pcb.org/)
 version **2013-07-07 BZR 4022**
@@ -50,12 +62,12 @@ version **2013-07-07 BZR 4022**
 
 ## License
 
-TOFE Expansion Board template for KiCad by Numato Systems Pvt. Ltd
+TOFE MilkyMist Compatibility Expansion board by Numato Systems Pvt. Ltd
 
-The TOFE Expansion Board template for KiCad is licensed under a 
-Creative Commons Attribution 4.0 International License.
+TOFE MilkyMist Compatibility Expansion board is licensed under a
+Creative Commons Attribution-ShareAlike 4.0 International License.
 
 You should have received a copy of the license along with this
-work.  If not, see <http://creativecommons.org/licenses/by/4.0/>.
+work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
 
-![Creative Commons License Logo](https://i.creativecommons.org/l/by/4.0/88x31.png)
+![Creative Commons License Logo](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
