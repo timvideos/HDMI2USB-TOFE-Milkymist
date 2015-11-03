@@ -1,8 +1,6 @@
-update=27-10-2015 11:13:45 AM
+update=03-11-2015 01:29:30 PM
 version=1
-last_client=cvpcb
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=D:/work/numato svn/KiCad/Library/trunk/Lib;C:/Users/NUMATO LAB/Music/TOFE Expansion module2/TOFElibrary
@@ -89,3 +87,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
