@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 27-10-2015 02:49:17 PM
+Cmp-Mod V01 Created by PcbNew date = 03-11-2015 12:25:39 PM
 
 BeginCmp
 TimeStamp = /53D12013;
@@ -760,7 +760,7 @@ BeginCmp
 TimeStamp = /562E255E;
 Reference = U3;
 ValeurCmp = ST3232CDR;
-IdModule  = ssop-16;
+IdModule  = TSSOP-16;
 EndCmp
 
 BeginCmp
