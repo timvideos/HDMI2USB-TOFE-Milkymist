@@ -38,7 +38,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "Milkymist Compatible TOFE Expansion Module"
-Date "2 nov 2015"
+Date "2 dec 2015"
 Rev "1.0"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
@@ -2888,24 +2888,10 @@ F 3 "~" H 18350 14200 60  0000 C CNN
 	1    18350 14200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	18050 13750 18350 13750
-Wire Wire Line
-	18350 13750 18350 14000
-Text Label 18050 13750 0    60   ~ 12
+Text Label 18050 14000 0    60   ~ 12
 VCC3V3
-Wire Wire Line
-	18050 13850 18100 13850
-Wire Wire Line
-	18100 13850 18100 14450
-Wire Wire Line
-	18100 14450 18350 14450
-Wire Wire Line
-	18350 14450 18350 14400
-Text Label 18100 14450 0    60   ~ 12
+Text Label 18100 14400 0    60   ~ 12
 GND
-Wire Wire Line
-	18050 13950 18550 13950
 Wire Wire Line
 	18550 13450 18100 13450
 Text Notes 17400 14250 0    60   ~ 12
@@ -3026,4 +3012,18 @@ NoConn ~ 18150 2200
 NoConn ~ 16450 7300
 NoConn ~ 16450 5500
 NoConn ~ 16450 4000
+Wire Wire Line
+	18050 14000 18350 14000
+Wire Wire Line
+	18050 13850 18100 13850
+Wire Wire Line
+	18100 13850 18100 14400
+Wire Wire Line
+	18100 14400 18350 14400
+Wire Wire Line
+	18050 13700 18400 13700
+Wire Wire Line
+	18400 13700 18400 13950
+Wire Wire Line
+	18400 13950 18550 13950
 $EndSCHEMATC
