@@ -1,6 +1,6 @@
-update=03-11-2015 01:29:30 PM
+update=02/12/2015 03:11:59 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=D:/work/numato svn/KiCad/Library/trunk/Lib;../libraries
@@ -42,14 +42,21 @@ LibName29=contrib
 LibName30=valves
 LibName31=TOFE
 LibName32=TOFE-Milkymist-cache
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=TOFE-Milkymist.net
 UseCmpFile=1
-PadDrill=2.400000000000
-PadDrillOvalY=2.400000000000
-PadSizeH=3.200000000000
-PadSizeV=3.200000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=0.406400000000
+PadSizeV=1.651000000000
 PcbTextSizeV=1.016000000000
 PcbTextSizeH=1.016000000000
 PcbTextThickness=0.300000000000
@@ -59,9 +66,10 @@ ModuleTextSizeThickness=0.150000000000
 SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
+BoardOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.200000000000
 [pcbnew/libraries]
+LibDir=D:/work/numato svn/KiCad/Library/trunk/Lib;../libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -78,12 +86,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=TOFEExpansionmodule
-LibDir=D:/work/numato svn/KiCad/Library/trunk/Lib;../libraries
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
+LibName17=TOFE
