@@ -1,12 +1,3 @@
-
-[![CrowdSupply Image](http://planet.timvideos.us/numato-opsis-crowdfunding-campaign-master/badge.png)](https://www.crowdsupply.com/numato-lab/opsis)
-
-The <a href="http://hdmi2usb.tv/numato-opsis">Numato Opsis</a>, the first open hardware for the
-<a href="http://hdmi2usb.tv">HDMI2USB firmware</a>,
-<a href="https://www.crowdsupply.com/numato-lab/opsis">can now be ordered on 
- ![CrowdSupply](https://www.crowdsupply.com/_teal/images/crowd-supply-logo-dark.png)
-</a>
-
 ## Milkymist Compatibility - TOFE Expansion board
 
 The [Numato Opsis board](https://www.crowdsupply.com/numato-lab/opsis) is
@@ -15,11 +6,14 @@ already very similar to the [Milkymist M1](http://m-labs.hk/m1.html) and
 [M-Labs](http://m-labs.hk/), but lacks the DJ hardware interfaces. This
 expansion board adds these missing components.
 
+This board can be ordered from the 
+[Numato Opsis page on CrowdSupply.com](https://www.crowdsupply.com/numato-lab/opsis).
+
 This extension board has the following features;
 
  * [AC‘97 compatible](https://en.wikipedia.org/wiki/AC%2797)
-   audio interface with Microphone, Headphones (on standard 3.5mm connectors)
-   and Line In + Out (on screw terminals for permanent installations).
+   audio interface with Microphone, Headphones, Line In + Out (on standard
+   3.5mm connectors).
 
  * [RS-422](https://en.wikipedia.org/wiki/RS-422) / [RS-485](https://en.wikipedia.org/wiki/RS-485)
    compatible high speed (10Mbps), full duplex serial port;
