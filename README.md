@@ -47,8 +47,7 @@ This extension board has the following features;
  * 4 x Indicator LEDs,
 
  * 2 x [Digilent Pmod™ Compatible](http://www.digilentinc.com/Pmods/licensing.cfm)
-   headers[1] to allow usage of existing expansion boards,
-   including boards from 
+   headers to allow usage of existing expansion boards, including boards from 
    [Numato Lab](http://numato.com/fpga-boards/filter/cat/expansion-modules.html?limit=30),
    [Digilent](http://digilentinc.com/pmods),
    [Maxim](https://www.maximintegrated.com/en/design/design-technology/fpga-design-resources/pmod-compatible-plug-in-peripheral-modules.html) and 
