@@ -794,7 +794,7 @@ EndCmp
 BeginCmp
 TimeStamp = /561CABB0;
 Reference = U8;
-ValeurCmp = TIMVIDEOS-PCIE-8X;
+ValeurCmp = TOFE-8X;
 IdModule  = NumatoOpsis_PCIe_8X_HL_NW_1;
 EndCmp
 

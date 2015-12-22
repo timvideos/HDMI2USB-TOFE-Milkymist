@@ -290,8 +290,8 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54181724))
     (comp (ref U8)
-      (value TIMVIDEOS-PCIE-8X)
-      (libsource (lib TOFEExpansionmodule) (part TIMVIDEOS-PCIE-8X))
+      (value TOFE-8X)
+      (libsource (lib TOFE) (part TOFE-8X))
       (sheetpath (names /) (tstamps /))
       (tstamp 561CABB0))
     (comp (ref SW3)
@@ -793,10 +793,10 @@
         (pin (num 6) (name Z) (type BiDi))
         (pin (num 7) (name B) (type BiDi))
         (pin (num 8) (name A) (type BiDi))))
-    (libpart (lib TOFEExpansionmodule) (part TIMVIDEOS-PCIE-8X)
+    (libpart (lib TOFE) (part TOFE-8X)
       (fields
         (field (name Reference) U)
-        (field (name Value) TIMVIDEOS-PCIE-8X)
+        (field (name Value) TOFE-8X)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins

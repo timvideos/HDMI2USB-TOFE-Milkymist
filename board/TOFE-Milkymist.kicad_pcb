@@ -354,7 +354,7 @@
     (fp_text reference U8 (at 5 1.75) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value TIMVIDEOS-PCIE-8X (at 19.175 -10.75) (layer F.SilkS) hide
+    (fp_text value TOFE-8X (at 19.175 -10.75) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
     (fp_line (start -12.15 0) (end -12.15 -7) (layer F.SilkS) (width 0.2))
