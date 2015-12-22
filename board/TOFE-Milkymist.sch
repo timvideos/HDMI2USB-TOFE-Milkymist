@@ -12,14 +12,14 @@ LIBS:memory
 LIBS:xilinx
 LIBS:TOFE
 LIBS:EEPROM
-LIBS:TOFE-Expansion-Board-cache
-LIBS:TOFE-Expansion-Board-cache
+LIBS:TOFE-Milkymist-cache
+LIBS:TOFE-Milkymist-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "TOFE Expansion Board"
+Title "TOFE Milkymist Expansion Board"
 Date "29 oct 2015"
 Rev "1.0"
 Comp "Numato Lab"
