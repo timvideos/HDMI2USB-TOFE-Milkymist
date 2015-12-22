@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 02/12/2015 03:12:10 PM
+Cmp-Mod V01 Created by PcbNew date = 16-12-2015 03:49:47 PM
 
 BeginCmp
 TimeStamp = /53D12013;
@@ -760,7 +760,7 @@ BeginCmp
 TimeStamp = /562E255E;
 Reference = U3;
 ValeurCmp = ST3232CDR;
-IdModule  = TSSOP-16;
+IdModule  = SO16_N;
 EndCmp
 
 BeginCmp
@@ -795,7 +795,7 @@ BeginCmp
 TimeStamp = /561CABB0;
 Reference = U8;
 ValeurCmp = TOFE-8X;
-IdModule  = NumatoOpsis_PCIe_8X_HL_NW_1;
+IdModule  = NumatoOpsis_PCIe_8X_HL_NW_123;
 EndCmp
 
 BeginCmp

@@ -1538,7 +1538,7 @@ F 3 "" H 5000 13450 60  0000 C CNN
 $EndComp
 Text Label 18300 9050 2    60   ~ 12
 GND
-Text Label 4750 14850 0    60   ~ 12
+Text Label 4750 14650 0    60   ~ 12
 RS232-OUT1
 Text Label 4250 15050 2    60   ~ 12
 RS232-IN1
@@ -1552,7 +1552,7 @@ Text Label 15850 3800 0    60   ~ 12
 RS232-RX2
 Text Label 4350 14450 2    60   ~ 12
 RS232-OUT1
-Text Label 4750 14650 0    60   ~ 12
+Text Label 4750 14850 0    60   ~ 12
 RS232-IN1
 Text Label 4350 14600 2    60   ~ 12
 RS232-OUT2
