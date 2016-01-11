@@ -38,13 +38,13 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "TOFE Milkymist Compatible Expansion Board"
-Date "22 dec 2015"
+Date "11 jan 2016"
 Rev "1.0"
 Comp "Numato Lab"
-Comment1 "http://www.numato.com"
-Comment2 "License: CC BY-SA"
-Comment3 ""
-Comment4 ""
+Comment1 "http://tofe.io/milkymist/"
+Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
+Comment3 "License: CC-BY-SA 4.0 International"
+Comment4 "$Id$"
 $EndDescr
 $Comp
 L LM4550 U1
