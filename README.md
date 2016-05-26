@@ -9,6 +9,8 @@ expansion board adds these missing components.
 This board can be ordered from the 
 [Numato Opsis page on CrowdSupply.com](https://www.crowdsupply.com/numato-lab/opsis).
 
+![Board Image](img/above.jpg)
+
 This extension board has the following features;
 
  * [AC‘97 compatible](https://en.wikipedia.org/wiki/AC%2797)
@@ -46,6 +48,8 @@ This extension board has the following features;
    [Digilent](http://digilentinc.com/pmods),
    [Maxim](https://www.maximintegrated.com/en/design/design-technology/fpga-design-resources/pmod-compatible-plug-in-peripheral-modules.html) and 
    [Analog](https://wiki.analog.com/resources/alliances/xilinx#pmods).
+
+A PDF version of the schematic can be found in the [docs](docs) directory.
 
 ## Editing
 
