@@ -11,6 +11,8 @@ This board can be ordered from the
 
 ![Board Image](img/above.jpg)
 
+## Features
+
 This extension board has the following features;
 
  * [AC‘97 compatible](https://en.wikipedia.org/wiki/AC%2797)
