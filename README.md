@@ -1,12 +1,12 @@
 ## Milkymist Compatibility - TOFE Expansion board
 
-The [Numato Opsis board](https://www.crowdsupply.com/numato-lab/opsis) is
-already very similar to the [Milkymist M1](http://m-labs.hk/m1.html) and 
+The [Numato Opsis board](https://numato.com/product/numato-opsis-fpga-based-open-video-platform) is
+already very similar to the [Milkymist M1](http://m-labs.hk/m1.html) and
 [Mixxeo](http://m-labs.hk/mixxeo.html) devices created by
 [M-Labs](http://m-labs.hk/), but lacks the DJ hardware interfaces. This
 expansion board adds these missing components.
 
-This board can be ordered from the 
+This board can be ordered from the
 [Numato Opsis page on CrowdSupply.com](https://www.crowdsupply.com/numato-lab/opsis).
 
 ![Board Image](img/above.jpg)
@@ -38,17 +38,17 @@ This extension board has the following features;
    control devices.
 
  * [Infrared](https://learn.adafruit.com/ir-sensor/ir-remote-signals)
-   transmitter and receiver compatible with many 
+   transmitter and receiver compatible with manys
    [consumer remote protocols](https://en.wikipedia.org/wiki/Consumer_IR).
 
  * 4 x Push button Switches,
  * 4 x Indicator LEDs,
 
  * 2 x [Digilent Pmod™ Compatible](http://www.digilentinc.com/Pmods/licensing.cfm)
-   headers to allow usage of existing expansion boards, including boards from 
+   headers to allow usage of existing expansion boards, including boards froms
    [Numato Lab](http://numato.com/fpga-boards/filter/cat/expansion-modules.html?limit=30),
    [Digilent](http://digilentinc.com/pmods),
-   [Maxim](https://www.maximintegrated.com/en/design/design-technology/fpga-design-resources/pmod-compatible-plug-in-peripheral-modules.html) and 
+   [Maxim](https://www.maximintegrated.com/en/design/design-technology/fpga-design-resources/pmod-compatible-plug-in-peripheral-modules.html) ands
    [Analog](https://wiki.analog.com/resources/alliances/xilinx#pmods).
 
 A PDF version of the schematic can be found in the [docs](docs) directory.
